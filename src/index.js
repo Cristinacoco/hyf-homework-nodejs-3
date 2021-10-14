@@ -13,3 +13,11 @@ app.post('/users', (req, res) => {
   app.get('/users/:id', (req, res) => {
     res.send('Hello World!')
   })
+
+  app.get('delete/users/:id', (req, res) => {
+    res.send('Hello World!')
+  })
+
+  app.delete('/users/:id', (req, res) => {
+    res.send('Hello World!')
+  })
